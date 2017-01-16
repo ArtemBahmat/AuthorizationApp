@@ -1,0 +1,19 @@
+﻿<Window x:Name="MainAppWindow" x:Class="AuthorizationApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AuthorizationApp"
+        mc:Ignorable="d"
+        Title="Test Authorization Program" Height="291.27" Width="431.349" WindowStartupLocation="CenterScreen" ResizeMode="NoResize">
+    <Grid x:Name="MainGrid" Margin="10,10,4,24">
+        <TextBox x:Name="loginTxtBox" HorizontalAlignment="Left" Height="23" Margin="181,75,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="201"/>
+        <Label x:Name="loginLabel" Content="Type login here:" HorizontalAlignment="Left" Margin="18,73,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="passLabel" Content="Type password here:" HorizontalAlignment="Left" Margin="18,131,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="titleLabel" Content="Enter login and pasword" HorizontalContentAlignment="Center" HorizontalAlignment="Left" Height="38" Margin="0,10,0,0" VerticalAlignment="Top" Width="401" FontSize="16"/>
+        <Button x:Name="OkButton" Content="OK" HorizontalAlignment="Left" Margin="18,182,0,0" VerticalAlignment="Top" Width="177" Click="OkButton_Click" Panel.ZIndex="2" IsDefault="True"/>
+        <PasswordBox x:Name="passBox" HorizontalAlignment="Left" Margin="181,134,0,0" VerticalAlignment="Top" Width="201" Height="23"/>
+        <Button x:Name="registerButton" Content="Register" HorizontalAlignment="Left" Margin="217,182,0,0" VerticalAlignment="Top" Width="177" Click="registerButton_Click"/>
+
+    </Grid>
+</Window>
