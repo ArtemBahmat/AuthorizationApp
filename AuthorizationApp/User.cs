@@ -22,7 +22,4 @@ namespace AuthorizationApp
             Name = name;
         }
     }
-
-    
-
 }
